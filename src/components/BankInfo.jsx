@@ -114,7 +114,7 @@ export default function BankInfo({ onAccountChange }){
                         <>
                             <div className="display-f justify-center align-center mt-2 mb-1">
                                 <div className="col-6-sm">
-                                    <div className="alert-card">{response}</div>
+                                    <div className="alert-card text-center">{response}</div>
                                 </div>
                             </div>
                         </>
