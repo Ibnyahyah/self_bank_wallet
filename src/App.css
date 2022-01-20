@@ -1,0 +1,38 @@
+body{
+  background-color: lightslategray;
+}
+.main-body{
+  min-height:75vh;
+}
+.card{
+  width:40%;
+  margin:auto;
+  margin-top:50px;
+}
+.refresh-icon{
+  cursor:pointer;
+  width:20px;
+  height:20px;
+}
+button{
+  cursor:pointer;
+}
+input{
+  padding:10px;
+  outline:none;
+  width:90%;
+}
+.alert-card{
+  border:1px solid green;
+  border-radius: 4px;
+  padding:10px;
+}
+
+@media (max-width:960px){
+  .card{
+    width:90% !important;
+  }
+  input{
+  width:100%;
+}
+}
